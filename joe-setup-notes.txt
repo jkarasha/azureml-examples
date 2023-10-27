@@ -19,3 +19,4 @@ az rest --method POST --uri 'https://graph.microsoft.com/beta/applications/09997
 
 # Troubleshoot
 use a branch
+one more time
