@@ -16,3 +16,6 @@ az role assignment create --role contributor --scope /subscriptions/c257cf07-39b
 #Subject: jkarasha/azureml-examples
 # won't work from CLI, but able to save using portal
 az rest --method POST --uri 'https://graph.microsoft.com/beta/applications/09997c82-4fe0-4ef7-9d4d-08f4c9d19f4d/federatedIdentityCredentials' --body '{"name":"a368604-aml-app-cred","issuer":"https://token.actions.githubusercontent.com","subject":"repo:jkarasha/azureml-examples:ref:refs/heads/main","description":"Testing","audiences":["api://AzureADTokenExchange"]}'
+
+# Troubleshoot
+use a branch
