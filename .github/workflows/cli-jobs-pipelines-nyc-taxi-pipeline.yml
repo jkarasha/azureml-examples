@@ -12,6 +12,9 @@ on:
       - .github/workflows/cli-jobs-pipelines-nyc-taxi-pipeline.yml
       - cli/run-pipeline-jobs.sh
       - cli/setup.sh
+permissions:
+      id-token: write
+      contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
